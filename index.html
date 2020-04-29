@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>taplink</title>
+   <base target="_blank">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="header-img">
+      <img src="img/logo-artist.jpg" alt="">
+    </div>
+    <h1 class="header-text">
+        Художник<br>Константинов Константин<br>Константинович
+    </h1>
+  </div>
+  <hr>
+</header>
+
+<section class="services">
+  <div class="container">
+    <h2 class="services-name">
+      Чем я могу быть Вам полезен
+    </h2>
+    <div class="services-blok">Портрет на заказ</div>
+    <div class="services-body">
+      <b>Классический портрет</b>  <br>
+      Пишу маслом, пастелью, карандашом или другим материалом, исходя из Ваших интересов и поставленных задач. 
+      <br>
+      <a class="body-link" href="#">Примеры портретов (откроется вконтакте)</a>
+      
+      <br><br>
+      <b>Портрет в стиле поп-арт</b>  <br>
+      Поп-арт портрет от Константинова Константина - это портрет сделанный в современном стиле, с добавлением традиций живописи великих мастеров прошлого. Люди в восторге!<br>
+      <a class="body-link" href="#">Примеры портретов (откроется вконтакте)</a>
+      
+    </div>
+    <br>
+
+    <div class="services-blok">Продажа картин</div>
+    <div class="services-body">
+      В наличии и написание картин на заказ. <br>
+      Пейзажи, натюрморты, композиции... <br>
+      Для написание пейзажей важно ездить на этюды, чтобы писать с натуры и передавать состояния. <br><br>
+      <a class="body-link" href="https://vk.cc/9qQuDH">Картины в наличии (откроется вконтакте)</a>
+      <a href="#">Примеры картин (откроется вконтакте)</a>
+    </div>
+    <br>
+    
+    <div class="services-blok">Роспись стен и потолков</div>
+    <div class="services-body">
+      Если объём росписей большой, тогда подключаю к работе ещё нескольких художников. На одном из объектов руководил бригадой художников численностью до 250 человек (роспись Морского собора). <br>
+      <a class="body-link" href="#">Примеры росписей (откроется вконтакте)</a>
+    </div>
+    <br>
+
+    <div class="services-blok">Индивидуальный мастер-класс</div>
+    <div class="services-body">
+      Картина маслом за 3 часа! <br>
+      Вместе со мной Вы напишете картину маслом на холсте. 
+    </div>
+  </div>
+  <hr>
+</section>
+<section class="bio">
+  <div class="container">
+    <div class="services-blok bio-block">Биография</div>
+    <div class="services-body">
+      <b>ФИО:</b> Константинов Константин Константинович <br>
+      <b>Образование:</b>
+      Закончил Санкт-Петербургскую Академия Художеств имени И. Е. Репина.
+      Профиль подготовки: художник-живописец. <br><br>
+      Развернутую биографию можно прочесть на соответствующей странице:
+      <a href="https://vk.cc/9qQJjt">https://vk.cc/9qQJjt</a>
+    </div>
+    <br>
+
+    <div class="services-blok bio-block">Доп. информация</div>
+    <div class="services-body">
+      Цены: cтоимость рассчитывается индивидуально. <br>
+      Сроки: от 3-х дней. <br><br>
+      Примеры моих работ по категориям можно посмотреть в фотоальбомах вонтакте. Ссылка на альбомы:
+      <a href="https://vk.cc/9qQKsQ">https://vk.cc/9qQKsQ</a>
+    </div>
+    <!-- Цены и сроки исполнения -->
+  </div>
+</section>
+
+<section class="contacts">
+   <div class="container container2">
+      <strong class="contacts__name">Контакты:</strong>
+      
+      <ul type="circle">
+        <li>Мой телефон / viber / whatsapp: <a href="tel:+79215778927">+7(921) 577-89-27</a></li>
+        <li>E-mail: konstantinovu@gmail.com</li>
+        <li>Город: Санкт-Петербург, Россия<br>Также переодически путешестую.</li>
+      </ul>
+      <hr>
+      <p>Больше моей творческой жизни и картин можно увидеть в социальных сетях.</p>
+      <ul>
+         <li>Вконтакте: <a href="https://vk.com/konstantinov.artist">@konstantinov.artist</a></li>
+         <li>Facebook: <a href="https://www.facebook.com/konstantinovkk">    @konstantinovkk</a></li>
+         <li>Instagram: <a href="https://www.instagram.com/konstantinov.art/">      @konstantinov.art</a></li>
+      </ul>
+   </div>
+</section>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+</script>
+<script>
+$(document).ready(function(){
+$('.services-blok').click(function(){
+$(this).next('.services-body').slideToggle();
+return false;
+});
+});
+</script>
+
+</body>
+</html>
+
+
